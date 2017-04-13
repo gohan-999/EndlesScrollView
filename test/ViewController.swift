@@ -1,25 +1,19 @@
-//
-//  ViewController.swift
-//  test
-//
-//  Created by 井上裕之 on 2017/04/13.
-//  Copyright © 2017年 井上裕之. All rights reserved.
-//
-
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIScrollViewDelegate {
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var contentView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        print("____scrollView contentOffset___\(scrollView.contentOffset)")
+        print("____scrollView frame___\(scrollView.frame)")
+        print("____view frame___\(contentView.frame)")
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        print("____scrollView didScroll___\(scrollView.contentOffset)")
     }
-
-
 }
 

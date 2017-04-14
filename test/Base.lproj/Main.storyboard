@@ -96,6 +96,11 @@
                     <size key="freeformSize" width="375" height="1220"/>
                     <connections>
                         <outlet property="contentView" destination="mMb-x4-vXz" id="Xba-zY-ghh"/>
+                        <outlet property="contentViewConstHeight" destination="RhN-Ex-lpj" id="yNV-oz-wRF"/>
+                        <outlet property="image1" destination="tsZ-xz-2Hg" id="bvH-fN-yG1"/>
+                        <outlet property="image2" destination="wtG-ZZ-mXY" id="wka-go-0W7"/>
+                        <outlet property="image3" destination="2av-kz-VGO" id="PtN-4H-Web"/>
+                        <outlet property="image4" destination="QYL-ky-UQp" id="9aP-4D-jB1"/>
                         <outlet property="scrollView" destination="mQ8-Js-1kr" id="VJF-QV-2Ls"/>
                     </connections>
                 </viewController>
